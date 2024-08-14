@@ -17,6 +17,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
     return Scaffold(
       body: Column(
         children: [
+          // Hiển thị tiêu đề
           Container(
       child: Container(
         margin: EdgeInsets.only(top: 45, bottom: 15),
@@ -50,6 +51,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
         ),
       ),
     ),
+    //Hiển thị phần thân
     FoodPageBody(),
         ],
       ),
